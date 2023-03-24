@@ -8,12 +8,11 @@ if (!empty($_POST['username']) and !empty($_POST['password'])) {
     $password = trim(htmlspecialchars($_POST['password']));
 
 
-    $verif_username = $bdd->prepare('SELECT * FROM users WHERE username = ?');
+    $verif_username = $bdd->prepare('SELECT username FROM users WHERE username = ?');
     $verif_username->execute(array($_POST['username']));
     $username_verif = $verif_username->rowCount();
 
-
-    if ($username_verif['username'] == 0) {
+    if ($username_verif == 0) {
 
 
         $password_crypted = password_hash($password, PASSWORD_BCRYPT);
