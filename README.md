@@ -1,5 +1,5 @@
 # Projet Infra
-### Pougeard-Dulimbert Arthur, Coutant Mathias, Lopez Théo, Magne Eric
+### Pougeard-Dulimbert Arthur, Lopez Théo, Magne Eric
 
 ## Somaire 
 1. Introduction 
