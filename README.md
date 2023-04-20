@@ -2,12 +2,13 @@
 ### Pougeard-Dulimbert Arthur, COUTANT Mathias, Lopez Théo, Magne Eric
 
 ## Sommaire 
-    - [Sommaire] (#sommaire)
-    - [Lien] (#lien)
-    - [Machine 1 : apache] (#machine-1-apache)
-    - [Machine 2 : Le Proxy] (#machine-2-:-le-proxy)
-    - [WAF] (#waf)
-    - [Machine 3 : Backups] (#machine-3-:-backups)
+
+- [Sommaire] (#sommaire)
+- [Lien] (#lien)
+- [Machine 1 : Apache] (#machine-1-:-apache)
+- [Machine 2 : Le Proxy] (#machine-2-:-le-proxy)
+- [WAF] (#waf)
+- [Machine 3 : Backups] (#machine-3-:-backups)
 
 ## Lien
 Le script de backup :
