@@ -2,11 +2,11 @@
 ### Pougeard-Dulimbert Arthur, COUTANT Mathias, Lopez Théo, Magne Eric
 
 ## Somaire 
-1. Introduction 
-3. Machine 1
-4. Machine 2
-5. WAF 
-6. Machine 3
+1. Introduction (# introduction)
+3. Machine 1 (# machine-1-:-apache)
+4. Machine 2 (# machine-2-:-le-proxy)
+5. WAF (# waf)
+6. Machine 3 (# machine-3-:-backups)
 
 
 ## Introduction 
