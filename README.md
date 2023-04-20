@@ -2,18 +2,13 @@
 ### Pougeard-Dulimbert Arthur, COUTANT Mathias, Lopez Théo, Magne Eric
 
 ## Somaire 
-1. Introduction (#introduction)
-3. Machine 1 (#machine-1-:-apache)
-4. Machine 2 (#machine-2-:-le-proxy)
-5. WAF (#waf)
-6. Machine 3 (#machine-3-:-backups)
+1. [Machine 1 apache] (#machine-1-apache)
+2. [Machine 2 : Le Proxy] (#machine-2-:-le-proxy)
+3. [WAF] (#waf)
+4. [Machine 3 : Backups] (#machine-3-:-backups)
 
 
-## Introduction 
-
-
-
-## Machine 1 : Apache
+## Machine 1 Apache
 
 
 Installations requises : 
