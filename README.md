@@ -1,14 +1,25 @@
 # Projet Infra
 ### Pougeard-Dulimbert Arthur, COUTANT Mathias, Lopez Théo, Magne Eric
 
-## Somaire 
-1. [Machine 1 apache] (#machine-1-apache)
-2. [Machine 2 : Le Proxy] (#machine-2-:-le-proxy)
-3. [WAF] (#waf)
-4. [Machine 3 : Backups] (#machine-3-:-backups)
+## Sommaire 
+    - [Sommaire] (#sommaire)
+    - [Lien] (#lien)
+    - [Machine 1 : apache] (#machine-1-apache)
+    - [Machine 2 : Le Proxy] (#machine-2-:-le-proxy)
+    - [WAF] (#waf)
+    - [Machine 3 : Backups] (#machine-3-:-backups)
 
+## Lien
+Le script de backup :
+- [Le Script](backup.sh)
 
-## Machine 1 Apache
+Le service : 
+- [Le Service](backup.service)
+
+Le Timer :
+- [Le timer](backup.timer)
+
+## Machine 1 : Apache
 
 
 Installations requises : 
@@ -330,10 +341,13 @@ Installation de NFS :
 ```
 sudo dnf install nfs-utils -y
 sudo mount -t nfs 52.47.186.64:backups/mon_site/ backup/
-
+```
 Le script de backup :
+- [Le Script](backup.sh)
 
-Le service :
+Le service : 
+- [Le Service](backup.service)
+
 
 Création du user qui gère le service :
 
@@ -346,4 +360,4 @@ sudo systemctl start backup
 sudo systemctl enable backup
 ```
 
-Timer :
+- [Le timer](backup.timer)

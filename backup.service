@@ -1,0 +1,11 @@
+[Unit]
+Description= Simple backup service for emby config themes and data files.
+
+[Service]
+User=backup
+Type=oneshot
+WorkingDirectory=/srv/
+ExecStart=/usr/bin/bash backup.sh
+
+[Install]
+WantedBy=multi-user.target
